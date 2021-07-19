@@ -1,0 +1,14 @@
+I"�<h3 id="mvc">MVC</h3>
+
+<p>MVC는 Model - View - Controller의 약자로 개발 할 때 위 형태로 나누어 개발하는 아키텍쳐입니다.</p>
+
+<h4 id="model">Model</h4>
+<p><strong>Model</strong> -&gt; 사실상 비즈니스 로직을 구현해 DATA처리를 한다. <code class="language-plaintext highlighter-rouge">select</code>, <code class="language-plaintext highlighter-rouge">update</code>, <code class="language-plaintext highlighter-rouge">insert</code>, <code class="language-plaintext highlighter-rouge">delete</code>등 DB관련 작업과 데이터 변환 등의 작업을 수행한다.</p>
+<h4 id="view">View</h4>
+<p><strong>View</strong> -&gt; 단어 그대로 유저에게 보여지는 화면을 출력하는 작업을 진행한다. (Model로 부터 처리가 되었지만 다이렉트로 전달이 아니라 Model에서 데이터가 View에게 전달될 떄는 <code class="language-plaintext highlighter-rouge">Model -&gt; Controller -&gt; View</code> 순으로 전달이 된다.)</p>
+<h4 id="controller">Controller</h4>
+<p><strong>Controller</strong> -&gt; 유저에게 요청을 받았을 때, 그 요청을 실행되는 로직(Model)을 요청한다.</p>
+
+<h4 id="한계">한계</h4>
+<p>하나의 <code class="language-plaintext highlighter-rouge">Model</code>은 다수의 <code class="language-plaintext highlighter-rouge">View</code>를 가질 수 있고 반대로 <code class="language-plaintext highlighter-rouge">Controller</code>를 통해 한</p>
+:ET
