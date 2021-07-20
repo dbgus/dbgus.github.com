@@ -1,7 +1,0 @@
-I"W<h3 id="mvc">MVC</h3>
-
-<p>MVC는 Model - View - Controller의 약자로 개발 할 때 위 형태로 나누어 개발하는 아키텍쳐입니다.</p>
-
-<p><strong>Model</strong> -&gt; 사실상 비즈니스 로직을 구현해 DATA처리를 한다. <code class="language-plaintext highlighter-rouge">select</code>, <code class="language-plaintext highlighter-rouge">update</code>, <code class="language-plaintext highlighter-rouge">insert</code>, <code class="language-plaintext highlighter-rouge">delete</code>등 DB관련 작업과 데이터 변환 등의 작업을 수행한다. 
-<em>**</em></p>
-:ET

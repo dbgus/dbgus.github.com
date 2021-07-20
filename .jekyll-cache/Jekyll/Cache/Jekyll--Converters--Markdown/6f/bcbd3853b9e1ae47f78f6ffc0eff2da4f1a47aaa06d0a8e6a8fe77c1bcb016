@@ -1,14 +1,0 @@
-I"<p>이번 프로젝트는 직장 동료의 아이디어로 시작했습니다 :)
-새부적인 내용은 공유하기 힘들지만, 개발함에 있어 이슈사항과 삽질 내역을 올려볼까합니다.
-이번 프로젝트의 산출물은 app과 server가 될 듯하며 1차적인 구상으로는 IOS, android app과 1개의 API server가 나올 예정입니다.</p>
-
-<h2 id="tech-stack">Tech stack</h2>
-<p>App -&gt; IOS와 android 둘 다로 내보내야 하기 때문에 native로 개발하기에는 무리라고 판단되어 react-native으로 작업을 할 예정입니다.(런닝커브를 생각하면…RN이 맞다고 생각합니다…)</p>
-
-<p>server -&gt; 서버는 RN에서 사용할 TS를 끌어와 express를 상요해서 API 서버를 만들 예정입니다.</p>
-
-<h2 id="생각할-점">생각할 점</h2>
-<p>1차적으로 기술 스택은 정해졌고, 구현 방식에 대해서 현재 가장 큰 고민은 하루에 한번씩 scheduler를 돌려 open API를 통해 받은 <code class="language-plaintext highlighter-rouge">xml</code>을 <code class="language-plaintext highlighter-rouge">csv</code> formatting을 해주고 이 데이터를 실제로 사용중인 table에 데이터를 업데이트를 해줘야 한다.</p>
-
-<p>정기적인 시간에 scheduler를 돌릴 예정이니</p>
-:ET
